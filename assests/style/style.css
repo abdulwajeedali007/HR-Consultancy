@@ -351,6 +351,21 @@ header nav .navbar-brand span {
   color: #fff;
 }
 
+@media screen and (max-width: 500px) {
+  .profile .content h2 {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.profile .profile_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 .profile .profile_button .btn_profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -381,6 +396,27 @@ header nav .navbar-brand span {
 
 .profile .profile_button .btn_profile span {
   margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .profile .profile_button .profile_button {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .profile .profile_button .btn_profile {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile .profile_button {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
 }
 
 .clients {

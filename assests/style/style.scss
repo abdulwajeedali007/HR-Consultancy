@@ -50,6 +50,7 @@ label {
   font-weight: 600;
 }
 // Navbar
+
 header {
   .ml-auto {
     margin-left: auto;
@@ -258,8 +259,15 @@ header {
       font-weight: 800;
       color: $white_color;
     }
+    @media screen and (max-width: 500px) {
+      h2 {
+        margin-bottom: 2rem !important;
+      }
+    }
   }
   .profile_button {
+    display: flex;
+    justify-content: end;
     .btn_profile {
       display: flex;
       justify-content: center;
@@ -281,6 +289,19 @@ header {
       span {
         margin-right: 0.5rem;
       }
+    }
+    @media screen and (max-width: 500px) {
+      .profile_button {
+        justify-content: start !important;
+      }
+      .btn_profile {
+        justify-content: start !important;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .profile_button {
+      justify-content: start !important;
     }
   }
 }
