@@ -408,7 +408,7 @@ header nav .navbar-brand span {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
             justify-content: start !important;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
