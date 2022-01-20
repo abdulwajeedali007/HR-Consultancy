@@ -174,15 +174,6 @@ header {
     }
     @media screen and (max-width: 425px) {
       .buttons {
-        display: flex;
-        margin-top: 0rem;
-        a {
-          padding: 0.2rem 0.4rem;
-        }
-      }
-    }
-    @media screen and (max-width: 410px) {
-      .buttons {
         display: none;
       }
     }
