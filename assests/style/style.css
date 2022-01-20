@@ -232,7 +232,7 @@ header nav .navbar-brand span {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
   .slider .carousel-caption .buttons {
     display: none;
   }
