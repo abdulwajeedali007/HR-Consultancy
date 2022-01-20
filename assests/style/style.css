@@ -151,6 +151,18 @@ header nav .navbar-brand span {
   font-family: "Poppins", sans-serif;
 }
 
+@media screen and (max-width: 550px) {
+  .slider .carousel-caption h5 {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .slider .carousel-caption h5 {
+    font-size: 2.5rem !important;
+  }
+}
+
 .slider .carousel-caption p {
   font-size: 1.2rem;
 }
@@ -205,6 +217,24 @@ header nav .navbar-brand span {
   }
   .slider .carousel-caption .buttons a {
     padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider .carousel-caption .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0rem;
+  }
+  .slider .carousel-caption .buttons a {
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .slider .carousel-caption .buttons {
+    display: none;
   }
 }
 

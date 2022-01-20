@@ -133,6 +133,16 @@ header {
       letter-spacing: 0.1rem;
       font-family: $font-family;
     }
+    @media screen and (max-width: 550px) {
+      h5 {
+        font-size: 3rem !important;
+      }
+    }
+    @media screen and (max-width: 380px) {
+      h5 {
+        font-size: 2.5rem !important;
+      }
+    }
     p {
       font-size: 1.2rem;
     }
@@ -160,6 +170,20 @@ header {
         a {
           padding: 0.5rem;
         }
+      }
+    }
+    @media screen and (max-width: 425px) {
+      .buttons {
+        display: flex;
+        margin-top: 0rem;
+        a {
+          padding: 0.2rem 0.4rem;
+        }
+      }
+    }
+    @media screen and (max-width: 380px) {
+      .buttons {
+        display: none;
       }
     }
   }
