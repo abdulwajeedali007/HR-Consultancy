@@ -336,6 +336,53 @@ header nav .navbar-brand span {
   font-size: 1.1rem;
 }
 
+.profile {
+  padding: 8rem 0rem;
+  background-image: url("../Images/profile_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.profile .content h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.profile .profile_button .btn_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  color: #0040aa;
+  padding: 0.8rem 2.5rem;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  border: 0.2rem solid #fff;
+  border-radius: 0.2rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.profile .profile_button .btn_profile:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.profile .profile_button .btn_profile span {
+  margin-right: 0.5rem;
+}
+
 .clients {
   padding: 5rem 0rem;
 }
