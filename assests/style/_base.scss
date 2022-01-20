@@ -1,0 +1,53 @@
+// buttons
+@mixin primary {
+  border: 0.2rem solid $white_color;
+  background: $white_color;
+  border-radius: 0.3rem;
+  margin-right: 1.2rem;
+  color: $scondary_color;
+  &:hover {
+    background: transparent;
+    border-color: $white_color;
+    color: $white_color;
+  }
+}
+@mixin outline {
+  border: 0.2rem solid $white_color;
+  border-radius: 0.3rem;
+  &:hover {
+    background: $scondary_color;
+    border-color: $scondary_color;
+    color: $white_color;
+  }
+}
+// baseButton
+@mixin base_button {
+  background: $primary_color;
+  color: $white_color;
+  text-decoration: none;
+  border: 2px solid $primary_color;
+  padding: 0.6rem 2rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 10px 10px -12px rgba(0, 0, 0, 1);
+  transition: all 0.5s linear;
+  &:hover {
+    background: transparent;
+    color: $primary_color;
+  }
+}
+// overlaytext
+@mixin overlay_text {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  .small_title {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+  }
+  .big_title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #fff;
+  }
+}
