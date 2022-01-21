@@ -539,3 +539,15 @@ header {
     }
   }
 }
+// contact page
+.btn_contact {
+  background: $primary_color;
+  border: 0.2rem solid $primary_color;
+  color: $white_color;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  transition: all 0.5s linear;
+  &:hover {
+    transform: translateY(2px);
+  }
+}

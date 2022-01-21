@@ -692,4 +692,19 @@ header nav .navbar-brand span.sub_title {
     padding: 0px 1rem;
   }
 }
+
+.btn_contact {
+  background: #070759;
+  border: 0.2rem solid #070759;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.btn_contact:hover {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
 /*# sourceMappingURL=style.css.map */
