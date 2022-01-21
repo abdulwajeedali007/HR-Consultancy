@@ -82,10 +82,31 @@ header nav .nav-link :focus {
 header nav .navbar-brand {
   color: #fff;
   font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem !important;
+}
+
+header nav .navbar-brand img.logo {
+  width: 20% !important;
+}
+
+header nav .navbar-brand h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0rem;
 }
 
 header nav .navbar-brand span {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  display: block;
+  font-weight: 200;
 }
 
 .slider {

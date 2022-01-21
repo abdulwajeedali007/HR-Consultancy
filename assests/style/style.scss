@@ -76,8 +76,22 @@ header {
     .navbar-brand {
       color: $white_color;
       font-size: 1.6rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0rem !important;
+      img.logo {
+        width: 20% !important;
+      }
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin: 0rem;
+      }
       span {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        display: block;
+        font-weight: 200;
       }
     }
   }
