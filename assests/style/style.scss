@@ -3,7 +3,7 @@
 // partials
 @import "base";
 
-$primary_color: #0040aa;
+$primary_color: #070759;
 $scondary_color: #333;
 $white_color: #fff;
 $font-family: "Poppins", sans-serif;
@@ -87,8 +87,12 @@ header {
         font-size: 1.5rem;
         font-weight: 800;
         margin: 0rem;
+        span {
+          font-size: 1rem;
+          font-weight: 500;
+        }
       }
-      span {
+      span.sub_title {
         font-size: 1.2rem;
         display: block;
         font-weight: 200;
